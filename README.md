@@ -4,7 +4,7 @@ This project is based on Proximal Policy Optimization for continuous control tas
 ![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/70597091/164040478-a162bdbf-9bdb-4465-930a-078ddd9f11db.gif)
 
 # Overview
-In this project we solve BipedalWalker problem of OpenAI Gym using PPO algorithm. I've used my [ppo-cartpole](https://github.com/HimGautam/ppo-cartpole) work as a reference to this work. The algorithm used in this work is same with a few adjustments in HyperParameters, Input and Output Dimension of NN.
+In this project we solve BipedalWalker problem of OpenAI Gym using PPO algorithm. I've used my [ppo-cartpole](https://github.com/HimGautam/ppo-cartpole) work as a reference to this work. The algorithm used in this work is same algorithm used in ppo-cartpole with a few adjustments in HyperParameters, Input and Output Dimension of NN.
 
 It took 10_00_000 training steps using the my set of hyperparameters to achieve the performance shown above. You can also experiment with the hyperparameters to see if you can get some improvements.
 
